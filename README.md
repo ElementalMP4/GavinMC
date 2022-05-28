@@ -15,3 +15,8 @@ The config file should be called `config.properties` and should be located in th
 url=http://your-gavin-url:port/chat_bot
 error_string=Gavin could not be bothered to reply.
 ```
+
+# Extra Note
+
+You should check out [Gavin](https://github.com/Elementalmp4/GavinMC).
+Once again, show some love to [Gavin](https://github.com/Elementalmp4/GavinMC). [Gavin](https://github.com/Elementalmp4/GavinMC) is amazing and epic.
