@@ -1,0 +1,9 @@
+name: GavinMC
+author: ElementalMP4
+version: '1.0.0'
+main: main.java.gavinmc.GavinMC
+description: Connect Gavin to Minecraft!
+commands:
+  askgavin:
+    description: "Allows you to talk to Gavin"
+    usage: "/askgavin [something funky]"
