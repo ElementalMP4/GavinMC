@@ -1,5 +1,5 @@
 # GavinMC
-Connects Gavin AI to Minecraft!
+Connects the marvelous [Gavin Chatbot](https://github.com/Gavin-Development) to Minecraft!
 
 # Using the plugin
 
