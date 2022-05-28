@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>elementalmp4</groupId>
 	<artifactId>GavinMC</artifactId>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<name>GavinMC</name>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
