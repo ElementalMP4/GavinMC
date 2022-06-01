@@ -31,8 +31,9 @@ public class GavinResponseGetter {
 			OutputStream os = con.getOutputStream();
 			byte[] input = payload.getBytes(StandardCharsets.UTF_8);
 			os.write(input, 0, input.length);
-			BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));			
-			String output = in.lines().collect(Collectors.joining());
+			BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+			JSONObject response = new JSONObject(in.lines().collect(Collectors.joining()));
+			String output = response.getString("message");
 			con.disconnect();
 			
 			return output;
